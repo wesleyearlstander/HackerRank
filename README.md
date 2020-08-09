@@ -2,8 +2,8 @@
 
 ## c++ practice
 
-| Task - Solution | Details |  
-| --------------- | ------- |
+| Task.Solution |
+| --------------- |
 | [HelloWorld](https://www.hackerrank.com/challenges/cpp-hello-world/problem).[cpp](https://github.com/wesleyearlstander/HackerRank/blob/master/c%2B%2B%20practice/HelloWorld.cpp) |
 | [InputOutput](https://www.hackerrank.com/challenges/cpp-input-and-output/problem).[cpp](https://github.com/wesleyearlstander/HackerRank/blob/master/c%2B%2B%20practice/InputOutput.cpp) |
 <!--
