@@ -1,8 +1,6 @@
-# Codility C++ Solutions
+# HackerRank Solutions
 
-## Lessons
-
-Details Legend: D = *Difficulty*; TS = *Task Score*; C = *Correctness*; P = *Performance*; TC = *Time Complexity*
+## c++ practice
 
 | Task - Solution | Details |  
 | --------------- | ------- |
