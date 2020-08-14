@@ -38,7 +38,7 @@ int sort_by_length(const char* a, const char* b) {
     if (out == 0) out = strcmp(a, b);
     return out;
 }
-
+//Merge Sort algorithm acquired from Geeks for Geeks and adapted as needed
 void merge(char** arr, int l, int m, int r, int (*cmp_func)(const char* a, const char* b)) 
 { 
     int i, j, k; 
