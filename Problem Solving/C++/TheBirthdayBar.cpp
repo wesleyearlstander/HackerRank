@@ -18,11 +18,11 @@ vector<string> split(const string &);
 
 int birthday(vector<int> s, int d, int m) {
     int count = 0;
-    for (int i = 0; i < s.size(); ++i) {
+    int size = s.size() - m + 1;
+    for (int i = 0; i < size; ++i) {
         int sum = s[i];
-        for (int j = i; j < m; ++j) {
-            sum += s[j];
-            if (sum > d) break;
+        for (int j = 1; j < m; ++j) {
+            sum += s[i + j];
         }
         if (sum == d) ++count;
     }
