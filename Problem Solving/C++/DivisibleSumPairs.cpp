@@ -18,14 +18,10 @@ vector<string> split(const string &);
 
 // so we can keep a lookup set of the compliment of each value as we loop through once and 0 if there is no compliment
 int divisibleSumPairs(int n, int k, vector<int> ar) {
-  unordered_map<int, int> umap;
-  umap.reserve(n);
   int count = 0;
-  for (int i = 0; i < n; ++i) {
-    int testVal = ar[i] % k;
-    umap[i] = abs(testVal != 0 ? k - testVal : 0);
-    for (int j = 0; j < i; ++j) {
-      if (testVal == umap[j]) {
+  for (int i = 0; i < n-1; ++i) {
+    for (int j = i+1; j < n; ++j) {
+      if ((ar[i] + ar[j]) % k == 0) {
         ++count;
       }
     }
